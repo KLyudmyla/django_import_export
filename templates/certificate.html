@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}pdf {% endblock title %}
+
+
+{% block content %}
+      <p></p>
+      <p></p>
+      <p></p>
+<h1><a href="{% url 'index'%}">Сertificate</a>
+
+   <div class="media">
+  <div class="media-left">
+      <img src="{% static 'images/1.jpg' %}">  
+  </div>
+  <div class="media-body">
+    <div class="contact">
+       
+      </h2>
+      <p> <b>Name:</b> Ivan Ivanov</p> 
+      <p><b>Skype:</b> iivanov</p>
+      <p><b>Email:</b> iivanov@gmail.com</p> 
+      <p><b>Phone:</b> (000) 000-00-00</p>
+    </div>
+    <p>Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text </p>
+  </div>
+</div>
+
+{% endblock content %}

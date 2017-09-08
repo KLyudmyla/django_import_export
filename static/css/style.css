@@ -1,0 +1,55 @@
+html{font-family: sans-serif;
+	color: #333;
+    background-color: #fff;
+}
+body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;}
+img{ 
+    width: 100px; 
+    height: 150px;}
+h1{	
+	}
+h2{	
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    background: #fff}
+
+.contact{
+	background: #f8f8f8}
+.col1{ margin: 20px 0 0 20px; 
+	loat: left;
+ 	display: table-cell;
+	 background: #f8f8f8;  
+	 width: 50%}
+.col2{
+	margin: 20px 0 0 20px;
+	float: right;
+	display:table-cell;
+	width:50%}
+.col3.{display:table-row; width:50%}
+p{
+	margin: 0 0 10px;}
+a{  color: #333;
+	text-decoration: none;}
+
+td{padding: 10px 10px 3px 3px;
+}
+tr{border: : 5px}
+.student_info{
+	background: #CED8F6;
+	}
+.student_list{
+	background: #CED8F6;
+    border-width: 1px;}
+.student_perfomance:{
+    font-weight: bold;
+    border-width: 1px;}
+    th {
+    font-weight: normal;
+    
+}

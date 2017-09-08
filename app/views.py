@@ -15,3 +15,18 @@ def simple_upload(request):
             person_resource.import_data(dataset, dry_run=False)  # Actually import now
 
     return render(request, 'core/simple_upload.html')
+
+from django.http import HttpResponse, HttpResponseNotFound
+from django.shortcuts import render
+
+def pdf(request):
+    return render(request, "pdf.html")
+
+
+def certificate(request):
+    import pdfkit
+    pdfkit.from_url('http://127.0.0.1:8000/app/', 'out.pdf')
+    return render(request, "certificate.html")
+
+
+
